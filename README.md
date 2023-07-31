@@ -1,10 +1,7 @@
 ## Interview Question: Log Analysis
 
-### Objective: Write a script that processes a log stream, extracts
-useful informationfrom it, and generates a summary report. The log file
-contains lines with different log levels, timestamps, and messages. Your
-task is to extract specific information and present it in a human-readable
-format.
+### Objective: Write a script that processes a log stream, extracts useful information from it, and generates a summary report.
+The log file contains lines with different log levels, timestamps, and messages. Your task is to extract specific information and present it in a human-readable format.
 
 ### The function should generate a summary report with the following information:
  - Total number of log entries in the file.
@@ -13,7 +10,7 @@ format.
  - The most frequent word occurring in the log messages.
  - A list of unique words found in the log messages.
 
-### example:
+### Example:
 #### input lines
 ```
 [2023-07-26 12:34:56] [INFO] User logged in successfully.
